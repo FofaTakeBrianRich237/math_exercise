@@ -6,7 +6,6 @@
 //Board1 is matrix one
 //Board2 is matrix two
 //answer is the matrix difference
-
 void sub2(float board[2][2],float board2[2][2],float answer[2][2])
 {
     for(int i = 0; i < 2; i++)
@@ -22,7 +21,6 @@ void sub2(float board[2][2],float board2[2][2],float answer[2][2])
 //Procedure to transpose a 2by2 matrix
 //board is the matrix to be transposed
 //answer is the transposed matrix (the transpose of board)
-
 void trans2(float board[2][2],float answer[2][2])
 {
     
@@ -41,7 +39,6 @@ void trans2(float board[2][2],float answer[2][2])
 //board is matrix one
 //board2 is matrix two
 //answer is their matrix product
-
 void mul2(float board[2][2],float board2[2][2],float answer[2][2] ={})
 {
     int a = 0, b = 0;
@@ -145,19 +142,13 @@ void mat2(float board[2][2])
 //board is matrix one
 //board2 is matrix two 
 //answer is the matrix sum
-
-
 void add2(float board[2][2],float board2[2][2],float answer[2][2])
 {
     for(int i = 0; i < 2; i++)
     {
         for(int j = 0; j < 2; j++)
         {
-            std::cout << answer[i][j] << std::endl;
-            std::cout << board[i][j] << std::endl;
-            std::cout << board2[i][j] << std::endl;
             answer[i][j] = board[i][j] + board2[i][j];
-            std::cout << answer[i][j] << std::endl;
         }
     }
 }
@@ -168,8 +159,6 @@ void add2(float board[2][2],float board2[2][2],float answer[2][2])
 
 //Fucntion to detrermine the trace of a 2by2 matrix
 //board is the matrix whose trace is to be calculated
-
-
 float trace2(float board[2][2])
 {
     float t = 0;
@@ -185,7 +174,6 @@ float trace2(float board[2][2])
 
 //Procedure to calculate the inverse of a 2by2 matrix
 //board is the matrix whose inverse is to be calculated
-
 void inverse2(float board[2][2])
 {
     float temp,ab[2][2];

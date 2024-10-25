@@ -35,7 +35,6 @@ int main ()
       std::cout << det2(b1) << std::endl;
       std::cout << "the determinant of matrix 2" << std::endl;
       std::cout << det2(b2) << std::endl;
-      std::cout << "The inverse of matrix 1" << std::endl;
       std::cout << "Their sum is:" << std::endl;
       add2(b1,b2,a);
       dis2(a);
@@ -45,6 +44,7 @@ int main ()
       std::cout << "Their product is:" << std::endl;
       mul2(b1,b2,a);
       dis2(a);
+      std::cout << "The inverse of matrix 1" << std::endl;
       inverse2(b1);
       std::cout << "The inverse of matrix 2" << std::endl;
       inverse2(b2);
@@ -91,4 +91,4 @@ int main ()
 }
 
 // so this i our main
-//the difference and the sum for 2by2 matrix have issues
+// lets execute 
