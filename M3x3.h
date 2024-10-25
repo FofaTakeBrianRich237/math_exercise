@@ -12,3 +12,6 @@ float trace3(float board[3][3]);
 void inverse3(float board[3][3]);
 
 #endif
+
+// here are the prototypes and function for 3by3 matrix 
+

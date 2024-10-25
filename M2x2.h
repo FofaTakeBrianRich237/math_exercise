@@ -12,3 +12,4 @@ float trace2(float board[2][2]);
 void inverse2(float board[2][2]);
 
 #endif
+//  and here are the protptypes and functions for 3by3 matrices
